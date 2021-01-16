@@ -2,13 +2,13 @@
 # General
 --------------------------------------------------------------*/
 html {
-  font-family: 'Merriweather',
-    serif;
+font-family: 'Montserrat',
+sans-serif;
 }
 
 body {
-  font-family: 'Merriweather',
-    serif;
+font-family: 'Montserrat',
+sans-serif;
   color: #444444;
 
 }
@@ -28,7 +28,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat',
+  sans-serif;
 }
 
 
@@ -99,7 +100,8 @@ h6 {
   transition: 0.3s;
   font-size: 18px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+ font-family: 'Montserrat',
+ sans-serif;
 }
 
 .nav-menu a:hover,
@@ -479,8 +481,8 @@ section {
   font-size: 15px;
   font-weight: 500;
   margin: 0;
-  font-family: 'Merriweather',
-    serif;
+  font-family: 'Montserrat',
+  sans-serif;
 }
 
 #footer .footer-top .footer-links ul i {
@@ -513,8 +515,8 @@ section {
   line-height: 26px;
   font-weight: 500;
   font-size: 15px;
-  font-family: 'Merriweather',
-    serif;
+  font-family: 'Montserrat',
+  sans-serif;
 }
 
 #footer .footer-top .footer-newsletter {
