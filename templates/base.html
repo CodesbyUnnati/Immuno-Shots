@@ -1,0 +1,155 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" href="{% static 'assets/img/favicon.ico' %}" />
+  <title>Immuno Shots💉
+  </title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'assets/vendor/icofont/icofont.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/icofont/icofont.min.css' %}" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+
+  <!-- Main CSS File -->
+  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+      <div class="logo mr-auto">
+        <h1>
+          <!-- <img src="assets/img/Icon.png" style="margin-top: -10px;"> -->
+          <img src="{% static 'assets/img/Icon.png' %}" style="margin-top: -15px;" alt="">
+          <a href="index.html"><img src="{% static 'assets/img/logo_1.jpg' %}" style="margin-top: -10px;" alt=""></a>
+        </h1>
+      </div>
+
+      <!--NAVBAR-->
+
+      <nav class="nav-menu d-none d-lg-block ml-auto">
+        <ul>
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="#map">Map</a></li>
+          <li><a href="#bookings">Bookings</a></li>
+          <li><a href="#emergency">Emergency</a></li>
+          <li><a href="#cases">Cases</a></li>
+             <li><a href="/appointment">Appointment</a></li>
+          <li style=" font-weight: 800;
+                font-size: 13px;
+                display: inline-block;
+                padding: 1px 1px 1px 1px;
+                border-radius: 50px;
+                transition: 0.5s;
+                background: #FE9F45;
+                border-style: none;
+                color: #fff;"><a href="#">Login/Signup</a></li>
+
+        </ul>
+      </nav>
+
+      <!-- NAVBAR -->
+    </div>
+  </header>
+
+ 
+
+  <br>
+  <br>
+  <br>
+  <br>
+  {% block content %}
+
+    {% endblock %}
+<!-- ======= Footer ======= -->
+<section id="contact">
+    <div class="section-title">
+      <h2>Contact</h2>
+
+    </div>
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 footer-info">
+              <h3>
+                <img src="{% static 'assets/img/logo_1.jpg' %}" style="width: 130px; margin-left: 80px;" />
+              </h3>
+             
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="ion-ios-arrow-right"></i> <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i> <a href="#map">Maps</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i> <a href="booking.html">Bookings</a>
+                </li>
+                <li>
+                  <i class="ion-ios-arrow-right"></i> <a href="#emergency">Emergency</a>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                <b>Immuno Shots- </b>Frontline Logistics
+                P.O. Box: 314
+                Office No: 4, Floor 1, Tower 1, Akash Tower, Delhi, India.
+                <br />
+
+                <strong>Phone:</strong>+91 8959631088<br />
+                <strong>Email:</strong>immunoshots@india.com<br />
+              </p>
+
+
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          Made with ❤️️ by <strong><a href="https://linktr.ee/Ping_Unnati" style="color: #FE9F45;">Unnati</a> & <a
+              href="https://linktr.ee/akshatkhanna" style="color: #FE9F45;">Akshat</a></strong>.
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!-- End Footer -->
+  </section>
+
+
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+
+  <!-- Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
