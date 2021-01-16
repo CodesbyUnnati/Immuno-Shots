@@ -2,14 +2,20 @@
 # General
 --------------------------------------------------------------*/
 html {
-font-family: 'Montserrat',
-sans-serif;
+  font-family: 'Montserrat',
+    sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-font-family: 'Montserrat',
-sans-serif;
+  font-family: 'Montserrat',
+    sans-serif;
   color: #444444;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -29,7 +35,7 @@ h4,
 h5,
 h6 {
   font-family: 'Montserrat',
-  sans-serif;
+    sans-serif;
 }
 
 
@@ -100,8 +106,8 @@ h6 {
   transition: 0.3s;
   font-size: 18px;
   font-weight: 500;
- font-family: 'Montserrat',
- sans-serif;
+  font-family: 'Montserrat',
+    sans-serif;
 }
 
 .nav-menu a:hover,
@@ -398,7 +404,13 @@ section {
   color: #fff;
 }
 
-
+#map-canvas {
+  height: 50%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+}
 
 
 /*--------------------------------------------------------------
@@ -482,7 +494,7 @@ section {
   font-weight: 500;
   margin: 0;
   font-family: 'Montserrat',
-  sans-serif;
+    sans-serif;
 }
 
 #footer .footer-top .footer-links ul i {
@@ -516,7 +528,7 @@ section {
   font-weight: 500;
   font-size: 15px;
   font-family: 'Montserrat',
-  sans-serif;
+    sans-serif;
 }
 
 #footer .footer-top .footer-newsletter {
@@ -536,4 +548,41 @@ section {
   padding-top: 30px;
   font-weight: 500;
   font-size: 15px;
+}
+
+.table {
+  width: 80%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+td a {
+  color: blue;
+  font-weight: 500;
+}
+
+form {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 15px solid#FE9F45;
+  border-radius: 10px;
+}
+
+label {
+
+  color: #013028;
+  font-style: bold;
+}
+
+input {
+  border-radius: 50%;
+
+}
+
+.form-control,
+.custom-select {
+  border-radius: 15px;
 }
